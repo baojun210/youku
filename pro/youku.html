@@ -1,0 +1,521 @@
+<html>
+	<head>
+		<meta name="renderer" content="webkit" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="../lib/reset.css" />
+		<link rel="stylesheet" type="text/css" href="./css/demo.css" />
+		<!-- <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" /> -->
+		<title>个人中心</title>
+	</head>
+	<body>
+		<div class="top">
+			<div class="header">
+				<div class="yk-logo">
+					<a href="http://www.youku.com/" title="youku 优酷">
+						<img src="../image/yk-logo.png" width="140px" height="50px">
+					</a>
+				</div>
+				<div class="view">
+					<a href=""><i class="icon"></i>导视</a>
+					<div class="hidden">
+						<i class="arrow"></i>
+						<div class="content">
+							<dl>
+								<dt>频道精选</dt>
+								<dd>
+									<a href="">电视剧</a>
+									<a href="">电影</a>
+									<a href="">综艺</a>
+									<a href="">音乐</a>
+									<a href="">少儿</a>
+									<a href="">动漫</a>
+									<a href="">直播</a>
+									<a href="">片库</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>全网独播</dt>
+								<dd>
+									<a href="">致青春</a>
+									<a href="">仙剑云之凡</a>
+									<a href="">十宗罪</a>
+									<a href="">琅琊榜</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>产品大全</dt>
+								<dd>
+									<a href="">自频道</a>
+									<a href="">话题</a>
+									<a href="">众筹</a>
+									<a href="">玩游戏</a>
+									<a href="">优酷移动</a>
+									<a href="">更多>></a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>客户端</dt>
+								<dd>
+									<a href="">移动APP</a>
+									<a href="">PC客户端</a>
+									<a href="">小小优酷</a>
+									<a href="">啥米鬼</a>
+									<a href="">来疯APP</a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<div class="nav">
+					<ul class="list">
+						<li><a>首页</a></li>
+						<li><a>发现</a></li>
+						<li>
+							<a>
+							订阅
+							<span class="warn"></span>
+							</a>
+						</li>
+						<li><a>会员</a></li>
+						<li><a class="current">我的</a></li>
+					</ul>
+				</div>
+				<div class="user">
+					<div class="login">
+						<a href="">
+							<img src="../image/user.jpg">
+							<i class="caret"></i>
+							<span class="level"></span>
+						</a>	
+					</div>
+					<div class="a record">
+						<a href="">
+							<i class="icon"></i>
+							<i class="caret"></i>
+						</a>
+					</div>
+					<div class="a notice">
+						<a href="">
+							<i class="icon"></i>
+							<i class="caret"></i>
+						</a>
+					</div>
+					<div class="a upload">
+						<a href="">
+							<i class="icon"></i>
+							<i class="caret"></i>
+						</a>
+					</div>
+				</div>
+				<div class="search">
+					<i class="search-icon"></i>
+					<!-- 聚焦失焦事件 -->
+					<input type="text" onblur="if(this.value == '')this.value='里约奥运会';" onclick="if(this.value == '里约奥运会')this.value='';" value="里约奥运会" />
+					<a href=""></a>
+					<button type="submit">搜库</button>
+				</div>
+			</div>
+		</div>
+		<div class="head">
+			<div class="center">
+				<div class="inner-img">
+					<img src="../image/day_bg.png" />
+					<div class="info-box">
+						<img src="../image/user.jpg" />
+						<div class="info-text">
+							<p class="icon greet">下午好</p>
+							<div class="name">
+								<span class="user-name">小丶小丶俊</span>
+								<span class="icon icon-mark"></span>
+								<div class="grade"></div>
+								<a class="icon phone"></a>
+							</div>
+							<div class="vip">
+								<i class="icon vip-icon"></i>
+								<a href="" class="vip-text">开通会员</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu">
+				<div class="menu-box">
+					<ul>
+						<li class="current">
+							<div class="ani"></div>
+							<a href="">个人中心</a></li>
+						<li>
+							<div class="ani"></div>
+							<a>创作中心</a></li>
+						<li>
+							<div class="ani"></div>
+							<a>我的会员</a></li>
+						<li>
+							<div class="ani"></div>
+							<a>我的消息</a></li>
+						<li>
+							<div class="ani"></div>
+							<a>账户设置</a></li>
+					</ul>
+					<a href="" class="channel"><i class="channel-icon"></i>我的自频道</a>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="content-box">
+				<div class="content-left">
+					<div class="left-menu-box">
+						<a class="right-border bottom-border">
+							<span class="icon video"></span>
+							<span>我的视频</span>
+						</a>
+						<a class="bottom-border">
+							<span class="icon album"></span>
+							<span>我的播单</span>
+						</a>
+						<a class="right-border">
+							<span class="icon subscribe"></span>
+							<span>我的订阅</span>
+						</a>
+						<a>
+							<span class="icon collect"></span>
+							<span>我的收藏</span>
+						</a>
+					</div>
+					<div class="history-box">
+						<div class="history-title">
+							<a>
+								<span class="icon his-icon"></span>
+								<span class="text">我的历史记录</span>
+								<span class="icon arrow-right"></span>
+							</a>
+						</div>
+						<div class="history-content">
+							<div class="line"></div>
+							<div class="his-box">
+								<div class="his-day">
+									<span class="icon border-gray"></span>
+									<span class="day">昨天 2016-08-14</span>
+								</div>
+								<ul>
+									<li>
+										<a>
+											<em class="dot"></em>
+											<span class="name">琅琊榜 01</span>
+											<span class="blue">50%</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<em class="dot"></em>
+											<span class="name">琅琊榜 02</span>
+											<span class="blue">51%</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<em class="dot"></em>
+											<span class="name">琅琊榜 03</span>
+											<span class="blue">52%</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<em class="dot"></em>
+											<span class="name">琅琊榜 04</span>
+											<span class="blue">53%</span>
+										</a>
+									</li>
+								</ul>
+								<div class="his-day">
+									<span class="icon border-gray"></span>
+									<span class="day">昨天 2016-08-14</span>
+								</div>
+								<ul>
+									<li>
+										<a>
+											<em class="dot"></em>
+											<span class="name">琅琊榜 01</span>
+											<span class="blue">50%</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<em class="dot"></em>
+											<span class="name">琅琊榜 02</span>
+											<span class="blue">51%</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<em class="dot"></em>
+											<span class="name">琅琊榜 03</span>
+											<span class="blue">52%</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<em class="dot"></em>
+											<span class="name">琅琊榜 04</span>
+											<span class="blue">53%</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="grade-box">
+						<div class="grade-title">
+							<a>
+								<span class="icon grade-icon"></span>
+								<span class="text">我的lv38特权福利</span>
+								<span class="arrow-right">更多</span>
+							</a>
+						</div>
+						<div class="grade-container">
+							<div class="wrap">
+								<ul class="gift">
+									<li>
+										<img src="../image/ty.jpg">
+										<div class="ad-box">
+											<span>淘金家理财100元红包</span>
+											<a>领取</a>
+										</div>
+									</li>
+									<li>
+										<img src="../image/yyp.jpg">
+										<div class="ad-box">
+											<span>淘金家理财100元红包</span>
+											<a>领取</a>
+										</div>
+									</li>
+								</ul>
+								<ul class="gift">
+									<li>
+										<img src="../image/mt.jpg">
+										<div class="ad-box">
+											<span>淘金家理财100元红包</span>
+											<a>领取</a>
+										</div>
+									</li>
+									<li>
+										<img src="../image/jh.png">
+										<div class="ad-box">
+											<span>淘金家理财100元红包</span>
+											<a>领取</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<ul class="ad-dot">
+							<li class="icon adot current"></li>
+							<li class="icon adot"></li>
+						</ul>
+					</div>
+					<div class="hype-box">
+						<a>
+							<span class="icon hype-icon game"></span>
+							<span class="name">我玩过的游戏</span>
+							<span class="icon arrow-right"></span>
+						</a>
+					</div>
+					<div class="hype-box">
+						<a>
+							<span class="icon hype-icon ykzb"></span>
+							<span class="name">我的优酷直播</span>
+							<span class="icon arrow-right"></span>
+						</a>
+					</div>
+					<div class="hype-box">
+						<a>
+							<span class="icon hype-icon laifeng"></span>
+							<span class="name">我的来疯直播</span>
+							<span class="icon arrow-right"></span>
+						</a>
+					</div>
+					<div class="hype-box">
+						<a>
+							<span class="icon hype-icon shop"></span>
+							<span class="name">我的购物车</span>
+							<span class="icon arrow-right"></span>
+						</a>
+					</div>
+					<div class="hype-box">
+						<a>
+							<span class="icon hype-icon fund"></span>
+							<span class="name">我的优酷众筹</span>
+							<span class="icon arrow-right"></span>
+						</a>
+					</div>
+				</div>
+				<div class="content-right">
+					<div class="task-box">
+						<div class="task-title">
+							<a class="task-title-1 task-title-2 cur">我的任务</a>
+							<a class="task-title-1 task-title-3 ">积分兑换</a>
+							<a class="more-goods">更多商品</a>
+						</div>
+						<div class="task-content task-content-left">
+							<ul class="task-wrap">
+								<li class="task task-line">
+									<img src="../image/task1.png">
+									<div class="desc">
+										<span class="desc-title">《琅琊榜》</span>
+										<span class="desc-desc">每天在排播表上完成观看 +5积分</span>
+									</div>
+									<a class="task-btn">去看剧</a>
+								</li>
+								<li class="task task-line">
+									<img src="../image/task2.png">
+									<div class="desc">
+										<span class="desc-title">创建话题赚积分</span>
+										<span class="desc-desc">成功创建话题通过审核 +15积分</span>
+									</div>
+									<a class="task-btn">签到</a>
+								</li>
+								<li class="task">
+									<img src="../image/task3.png">
+									<div class="desc">
+										<span class="desc-title">签到有礼</span>
+										<span class="desc-desc">精品天天兑换，iPhone 6S限时抢</span>
+									</div>
+									<a class="task-btn">去创建</a>
+								</li>
+							</ul>
+							<a class="icon turn-left"></a>
+							<a class="icon turn-right"></a>
+						</div>
+						<div class="task-content task-content-right" style="display : none">
+							<ul class="task-wrap">
+								<li class="task task-line">
+									<img src="../image/task4.png">
+									<div class="desc">
+										<span class="desc-title">Kindle电子书阅读器</span>
+									</div>
+									<a class="task-btn">立即兑换</a>
+								</li>
+								<li class="task">
+									<img src="../image/task5.jpg">
+									<div class="desc">
+										<span class="desc-title">1L金罐山茶油100元抵用券</span>
+									</div>
+									<a class="task-btn">立即兑换</a>
+								</li>
+							</ul>
+							<a class="icon turn-left"></a>
+							<a class="icon turn-right"></a>
+						</div>
+					</div>
+					<div class="vip-box">
+						<p class="vip-title">会员专享大片
+							<a class="more">更多</a>
+						</p>
+						<div class="vip-list">
+							<ul class="vip-ul"></ul>
+							<a class="icon vip-right"></a>
+							<a class="icon vip-left"></a>
+						</div>
+					</div>
+					<div class="hot-box">
+						<div class="hot-title">历史热播</div>
+						<div class="hot-list">
+							<ul class="hot-ul"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="foots">
+			<div class="footer">
+				<div class="foot-line"></div>
+				<dl class="foot foot-1">
+					<dt>
+						<a target="_blank" href="http://c.youku.com/aboutcn/youtu?spm=0.0.0.0.RO7R2N">合一集团</a>
+						<a target="_blank" href="http://c.youku.com/aboutcn/youku">关于优酷</a>
+						<a target="_blank" href="http://www.tudou.com/about/cn/">关于土豆</a>
+					</dt>
+					<dd>
+						<a target="_blank" href="http://c.youku.com/abouteg/youtu">Youku Tudou Inc.</a>
+						<a target="_blank" href="http://c.youku.com/abouteg/youku">Youku.com</a>
+						<a target="_blank" href="http://www.tudou.com/about/en/">Tudou.com</a>
+					</dd>
+					<dd>
+						<a target="_blank" href="http://c.youku.com/link">友情链接</a>
+						<a target="_blank" href="http://zhaopin.heyi.com/">工作机会</a>
+						<a target="_blank" href="http://c.youku.com/aboutcn/adservice/">广告服务</a>
+					</dd>
+				</dl>
+				<dl class="foot foot-2">
+					<dt>优酷热门</dt>
+					<dd>
+						<a target="_blank" href="http://tv.youku.com/">电视剧</a>
+						<a target="_blank" href="http://movie.youku.com/">电影</a>
+						<a target="_blank" href="http://zy.youku.com/">综艺</a>
+						<a target="_blank" href="http://music.youku.com/">音乐</a>
+						<a target="_blank" href="http://child.youku.com/">少儿</a>
+						<a target="_blank" href="http://news.youku.com/">资讯</a>
+						<a target="_blank" href="http://paike.youku.com/">拍客</a>
+						<a target="_blank" href="http://jilupian.youku.com/">纪实</a>
+						<a target="_blank" href="http://gongyi.youku.com/">公益</a>
+					</dd>
+					<dd class="">
+						<a target="_blank" href="http://sports.youku.com/">体育</a>
+						<a target="_blank" href="http://auto.youku.com/">汽车</a>
+						<a target="_blank" href="http://tech.youku.com/">科技</a>
+						<a target="_blank" href="http://finance.youku.com/">财经</a>
+						<a target="_blank" href="http://ent.youku.com/">娱乐</a>
+						<a target="_blank" href="http://dv.youku.com/">原创</a>
+						<a target="_blank" href="http://comic.youku.com/">动漫</a>
+						<a target="_blank" href="http://fun.youku.com/">搞笑</a>
+						<a target="_blank" href="http://travel.youku.com/">旅游</a>
+					</dd>
+					<dd>
+						<a target="_blank" href="http://fashion.youku.com/">时尚</a>
+						<a target="_blank" href="http://baby.youku.com/">亲子</a>
+						<a target="_blank" href="http://edu.youku.com/">教育</a>
+						<a target="_blank" href="http://game.youku.com/">游戏</a>
+						<a target="_blank" href="http://vip.youku.com/">会员</a>
+						<a target="_blank" href="http://faxian.youku.com/?from=PC_main_nav">发现</a>
+						<a target="_blank" href="http://list.youku.com/category/video">片库</a>
+					</dd>
+				</dl>
+				<dl class="foot foot-3">
+					<dt>产品中心</dt>
+					<dd>
+						<a href="">PC客户端</a>
+						<a href="">优酷iDo</a>
+					</dd>
+					<dd>
+						<a href="">手机客户端</a>
+						<a href="">拍客</a>
+					</dd>
+					<dd>
+						<a href="">智能硬件</a>
+						<a href="">视频云</a>
+					</dd>
+				</dl>
+				<dl class="foot foot-4">
+					<dt>用户</dt>
+					<dd>
+						<a href="">自频道加油站</a>
+						<a href="">原创认证</a>
+						<a href="">视频创收</a>
+					</dd>
+					<dt>支持</dt>
+					<dd>
+						<a href="">繁體版</a>
+						<a href="">在线反馈</a>
+						<a href="">帮助中心 </a>
+					</dd>
+				</dl>
+			</div>
+		</footer>
+		<div class="fixed">
+			<img src="../image/gotop.gif" title="回到顶部" />
+		</div>
+		<script type="text/javascript" src="../lib/jquery@1.7.1.min.js"></script>
+		<script type="text/javascript" src="./js/demo.js"></script>
+	</body>
+</html>

@@ -1,0 +1,1103 @@
+.top
+	position absolute
+	top 0
+	left 0
+	background white
+	z-index 999
+	width 100%
+	height 82px
+	.header
+		position relative
+		height 82px
+		margin 0 auto
+		padding 0 10px
+		padding-top 22px
+		width 1356px
+		.yk-logo
+			width 140px
+			float left
+			margin-right 90px
+			margin-left 20px
+		.view
+			position absolute
+			left 180px
+			top 38px
+			padding 0 10 30
+			&:hover
+				a
+					color #ff3c00
+				.hidden
+					opacity 1
+					transform scale(1)
+				.icon
+					width 12px
+					height 12px
+					display inline-block
+					vertical-align top
+					background-position -137px -258px
+			a
+				display block
+				font-size 13px
+				color #999
+				line-height 14px
+				.icon
+					width 12px
+					height 12px
+					display inline-block
+					vertical-align top
+					background url("../../image/header-icons.png") no-repeat -120px -258px
+			.hidden
+				opacity 0
+				position absolute
+				left -100px
+				top 44px
+				width 434px
+				height 178px
+				border 1px solid #ebebeb
+				background white
+				box-shadow 4px 7px 16px rgba(0,0,0,.3)
+				transform-origin 30% 0
+				transition .3s linear
+				transform scale(.7)
+				.arrow
+					position absolute
+					width 13px
+					height 8px
+					left 115px
+					top -8px
+					background url("../../image/header-icons.png") no-repeat -112px 0
+				.content
+					padding 20px 19px
+					dl
+						padding 10px
+						dt
+							float left
+							font-size 13px
+							color #999
+							padding-right 10px
+						dd
+							white-space nowrap
+							font-size 13px
+							margin-left 60px
+							border-left 1px solid  #e3e7e8
+							&>a
+								display inline-block
+								color #555
+								margin 0 2px 0 6px
+								&:hover
+									color #ff3c00		
+		.nav
+			.list
+				float left
+				height 40px
+				margin-right 40px
+				line-height 40px
+				li
+					float left
+					height 38px
+					line-height 38px
+					margin-right -1px
+					transition background-color .6s ease-in
+					&:hover
+						background-color #2fb3ff	
+					a
+						position relative
+						display inline-block
+						height 38px
+						line-height 38px
+						padding 0 18px
+						border 1px solid #2fb3ff
+						color #2fb3ff
+						font-size 13px
+						&:last-child
+							border-radius 0 2px 2px 0
+						&:hover
+							color white
+						&.current
+							background #2fb3ff
+							color white
+							padding 0 19px
+						.warn
+							position absolute
+							top 4px
+							right 8px
+							display inline-block
+							width 8px
+							height 8px
+							background url("../../image/header-icons.png") no-repeat -130px 0
+		.user
+			float left
+			.login
+				position relative
+				float left
+				width 66px
+				height 40px
+				margin-right 10px
+				&:hover
+					.caret
+						transform rotate(180deg)
+						transition all .3s ease-in
+				a
+					img
+						position absolute
+						top 0
+						left 0
+						width 40px
+						height 40px
+						border-radius 100%
+					.caret
+						position absolute
+						overflow hidden
+						width 9px
+						height 5px
+						top 17px
+						left 48px
+						transition .3s
+						background url("../../image/header-icons.png") -60px 0 no-repeat
+					.level
+						position relative
+						left 22px
+						bottom -24px
+						display inline-block
+						width 22px
+						height 16px
+						vertical-align middle
+						background url("../../image/vip-level-icons.png") no-repeat
+					
+			.a
+				float left
+				width 52px
+				padding 10px 0
+				position relative
+				&:hover
+					.caret
+						transform rotate(180deg)
+						transition all .3s ease-in
+				a
+					font-size 13px
+					.icon
+						display inline-block
+						width 20px
+						height 20px
+						background url("../../image/header-icons.png") no-repeat
+					.caret
+						position absolute
+						overflow hidden
+						width 9px
+						height 5px
+						top 17px
+						left 24px
+						transition .3s
+						background url("../../image/header-icons.png") -60px 0 no-repeat
+						
+				&.record
+					.icon
+						background-position -98px -237px
+				&.notice
+					.icon
+						background-position -20px 0
+				&.upload
+					.icon
+						background-position -40px 1px
+					
+		.search
+			position absolute
+			right 10px
+			width 448px
+			height 38px
+			border-radius 2px
+			border 1px solid #2fb3ff
+			.search-icon
+				position absolute
+				left 11px
+				top 11px
+				width 16px
+				height 16px
+				background url("../../image/header-icons.png") -133px -189px no-repeat
+			input
+				height 36px
+				font-size 14px
+				outline 0 none
+				padding 9px 12px 9px 38px
+			a
+				position absolute
+				top 0 
+				right 88px
+				width 20px
+				height 38px
+				background url("../../image/search.png") no-repeat left center
+			button
+				position absolute
+				width 80px
+				height 38px
+				line-height 40px
+				top -1px
+				right -1px
+				color white
+				text-align center
+				font-size 13px
+				background url("../../image/header-icons.png") 0 -315px #2fb3ff no-repeat
+				border 0
+				outline 0 none
+.head
+	height 356px
+	background rgb(124, 210, 255)
+	margin-top 82px
+	.center
+		position relative
+		width 1300px
+		height 300px
+		margin 0 auto
+		.inner-img
+			margin-left -190px
+			img
+				display block
+				width 1680px
+				height 301px
+			.info-box
+				position absolute
+				top 50%
+				left 50%
+				margin-top -55px
+				margin-left -11px
+				img
+					border 3px solid #fff
+					width 110px
+					height 110px
+					border-radius 50%
+				.info-text
+					position absolute
+					width 300px
+					left 224px
+					top 30px
+					.icon
+						background url("../../image/icon-1.png")
+						&.greet
+							font-size 20px
+							color white
+							font-weight 700
+							padding-left 16px
+							background-position -384px -377px
+							background-repeat no-repeat
+					.name
+						height 40px
+						.user-name
+							float left
+							font-size 20px
+							padding-left 30px
+							line-height 40px
+							color white
+						.icon
+							float left
+							display inline-block
+							background url("../../image/icon-1.png")
+							&.icon-mark
+								width 15px
+								height 15px
+								vertical-align top
+								background-position -384px -377px
+								background-repeat no-repeat
+						.grade
+							position relative
+							width 30px
+							height 30px
+							float left
+							cursor pointer
+							margin-left 10px
+							background url("../../image/grade-icon.png")
+							background-repeat no-repeat
+							background-position 0 -1110px
+						.phone
+							display inline-block
+							width 15px
+							height 17px
+							margin-left 10px
+							margin-top 12px
+							background url("../../image/icon-1.png")
+							background-repeat no-repeat
+							background-position -200px -148px
+					.vip
+						float left
+						width 246px
+						height 60px
+						padding-left 16px
+						margin-top 10px
+						border-radius 50px
+						background #b1e3ff
+						line-height 60px
+						.vip-icon
+							position relative
+							margin-top 15px
+							margin-right 10px
+							width 32px
+							height 26px
+							float left
+							background url("../../image/disabled-icon.png")
+						.vip-text
+							display inline-block
+							vertical-align middle
+							font-size 20px
+							color #2b81ba
+							font-weight 700
+							line-height 60px		
+	.menu
+		height 56px
+		background white
+		.menu-box
+			position relative
+			width 1300px
+			height 56px
+			margin 0 auto
+			overflow hidden
+			ul
+				li
+					position relative
+					float left
+					height 56px
+					display block
+					padding 0 22px
+					line-height 56px
+					font-size 13px
+					&:hover
+						a
+							color #ff3c00
+						.ani
+							height 56px
+					.ani
+						position absolute
+						top 0px
+						left 0px
+						background #2eb3ff
+						opacity .2
+						width 96px
+						height 0
+						transition height .2s linear
+					a
+						color #555
+					&.current
+						color #2eb3ff
+						border-bottom 3px solid #2eb3ff
+						a
+							color #555
+			.channel
+				position absolute
+				right 0
+				top 0
+				width 144px
+				height 56px
+				line-height 55px
+				text-align center
+				background #2eb3ff
+				font-size 13px
+				color white
+				.channel-icon
+					display inline-block
+					width 28px
+					height 27px
+					background-position -271px -300px
+					background-repeat no-repeat
+					margin-right 10px
+					background-image url("../../image/icon-1.png")
+					vertical-align middle
+.main
+	width 100%
+	height 1250px
+	background rgb(246,246,246)
+	.content-box
+		width 1300px
+		margin 0 auto
+		.content-left
+			display block
+			float left
+			width 202px
+			.left-menu-box
+				width 202px
+				background-color white
+				overflow hidden
+				margin-top 16px
+				transition 1.3s linear
+				a
+					display block
+					width 100px
+					height 90px
+					float left
+					overflow hidden
+					&:hover
+						span
+							color #2fb3ff
+					&.bottom-border
+						border-bottom 1px solid #f6f6f6
+					&.right-border
+						border-right 1px solid #f6f6f6
+					span
+						display block
+						margin 0 auto
+						font-size 12px
+						text-align center
+						margin-bottom 10px
+						color #555
+						background-repeat no-repeat
+					.icon
+						background url("../../image/icon-1.png")
+						margin-top 26px
+						&.video
+							width 21px
+							height 21px
+							background-position 0 0
+						&.album
+							width 20px
+							height 21px
+							background-position 0 -37px
+						&.subscribe
+							width 14px
+							height 14px
+							background-position 0 -65px
+						&.collect
+							width 16px
+							height 17px
+							background-position 0 -81px
+			.history-box
+				margin-top 16px
+				width 202px
+				background white
+				overflow hidden
+				.history-title
+					display block
+					height 52px
+					border-bottom 1px solid #e3e7e8 
+					a
+						span
+							display inline-block
+							&.his-icon
+								width 22px
+								height 22px
+								margin-left 10px
+								vertical-align middle
+								background-position -148px -109px
+						.icon
+							background url("../../image/icon-1.png")
+						.text
+							font-size 13px
+							color #555
+							font-weight 700
+							margin-left 6px
+							line-height 52px
+						.arrow-right
+							float right
+							width 10px
+							height 15px
+							margin-top 16px
+							margin-right 12px
+							line-height 52px
+							background-position 0 -168px
+				.history-content
+					padding-top 10px
+					padding-bottom 10px
+					position relative
+					border-bottom 1px solid #e3e7e8 
+					.line
+						position absolute
+						left 19px
+						top 0
+						width 0
+						height 100%
+						border-left 1px solid #e3e7e8
+					.his-box
+						position relative
+						margin-left 20px
+						.his-day
+							position relative
+							padding-top 10px
+							padding-bottom 10px
+							.icon
+								background url("../../image/icon-1.png")
+								&.border-gray
+									background-position 0 -361px
+									position absolute
+									top 9px
+									left -7px
+									width 14px
+									height 14px
+									background-color white
+							.day
+								color #a8a8a8
+								padding-left 15px
+								font-size 12px
+						ul
+							li
+								position relative
+								line-height 26px
+								&:hover
+									a
+										color #ff3c00
+								a
+									color #555
+									.dot
+										display inline-block
+										width 5px
+										height 5px
+										margin-left -3px
+										border-radius 50%
+										vertical-align middle
+										background #e3e7e8
+									span
+										display inline-block
+										font-size 12px
+										vertical-align top
+									.name
+										width 74%
+										height 30px
+										margin-left 5px
+										overflow hidden
+										white-space nowrap
+										text-overflow ellipsis
+									.blue
+										color #2fb3ff
+			.grade-box
+				position relative
+				width 202
+				overflow hidden
+				background white
+				border-bottom 1px solid #e3e7e8
+				.grade-title
+					display block
+					height 52px
+					a
+						span
+							display inline-block
+							&.grade-icon
+								width 22px
+								height 18px
+								margin-left 10px
+								vertical-align middle
+								background-position 0px -243px
+						.icon
+							background url("../../image/icon-1.png")
+						.text
+							font-size 13px
+							color #555
+							font-weight 700
+							margin-left 6px
+							line-height 52px
+						.arrow-right
+							float right
+							margin-top 19px
+							margin-right 6px
+							font-size 12px
+							color #2fb3ff
+				.grade-container
+					position relative
+					width 202px
+					height 306px
+					.wrap
+						position absolute
+						width 404px
+						top 0
+						overflow hidden
+						.gift
+							display block
+							width 202px
+							float left
+							margin 0 auto
+							li
+								position relative
+								margin 0 auto
+								padding-bottom 20px
+								img
+									display block
+									width 162px
+									height 133px
+									margin 0 auto
+								.ad-box
+									position absolute
+									left 50%
+									margin-left -81px
+									width 162px
+									height 32px
+									bottom 20px
+									font-size 12px
+									color white
+									background rgba(0,0,0,.6)
+									span
+										display inline-block
+										width 95px
+										height 32px
+										line-height 32px
+										padding-left 10px
+										overflow hidden
+										white-space nowrap
+										text-overflow ellipsis
+										z-index 99
+									a
+										float right
+										width 44px
+										height 20px
+										line-height 20px
+										margin-top 7px
+										background #ff3c00
+										color white
+										text-align center
+										margin-right 5px
+										z-index 99
+				.ad-dot
+					display block
+					position absolute
+					right 20px
+					bottom 5px
+					li
+						display block
+						width 10px
+						height 10px
+						margin-left 2px
+						float left
+						cursor pointer
+						background-position -240px -100px
+					.icon
+						background-image url("../../image/icon-1.png")
+					.current
+						background-position -200px -100px				
+			.hype-box
+				display block
+				width 100%
+				height 52px
+				background white
+				border-bottom 1px solid #e3e7e8
+				&:hover a
+					.name
+						color #ff3c00
+				a
+					span
+						display inline-block
+					.icon
+						background-image url("../../image/icon-1.png")
+						background-repeat no-repeat
+						vertical-align middle
+					.hype-icon
+						margin-left 10px
+						&.game
+							width 22px
+							height 22px
+							background-position -100px 0
+						&.ykzb
+							width 22px
+							height 16px
+							background-position -100px -56px
+							
+						&.laifeng
+							width 22px
+							height 22px
+							background-position -100px -108px
+						&.shop
+							width 22px
+							height 20px
+							background-position -100px -155px
+							background-repeat no-repeat
+							vertical-align middle
+						&.fund
+							width 22px
+							height 22px
+							background-position -100px -224px
+					.name
+						color #555
+						margin-left 10px
+						font-size 13px
+						line-height 52px
+					.arrow-right
+						float right
+						width 10px
+						height 15px
+						margin-top 16px
+						margin-right 12px
+						line-height 52px
+						background-position 0 -168px
+		.content-right
+			float left
+			width 0
+			padding-top 16px
+			margin-left 20px
+			.task-box
+				width 1080px
+				border-bottom 1px solid #e3e7e8
+				padding-bottom 20px
+				.task-title
+					position relative
+					width 1080px
+					overflow hidden
+					.task-title-1
+						display block
+						float left
+						width 118px
+						color #555
+						font-size 20px
+						font-weight 700
+						padding-bottom 20px
+						&.cur
+							color #2fb3ff
+					.more-goods
+						display none
+						position absolute
+						right 0
+						bottom 10px
+						text-align center
+						font-size 12px
+						color #2eb3ff
+				.task-content
+					position relative
+					width 1080px
+					height 90px
+					overflow hidden
+					background white
+					.task-wrap
+						position absolute
+						display block
+						height 90px
+						left 0
+						top 90px
+						width 1623px
+						.task
+							display block
+							width 540px
+							height 90px
+							float left
+							&.task-line
+								border-right 1px solid #e3e7e8
+							img
+								display block
+								width 51px
+								height 50px
+								margin-left 20px
+								margin-top 20px
+								float left
+							.desc
+								float left
+								margin-left 10px
+								.desc-title
+									display block
+									padding-top 26px
+									font-size 20px
+									color #555
+								.desc-desc
+									display block
+									padding-top 4px
+									font-size 13px
+									color #555
+							.task-btn
+								display block
+								width 100px
+								height 40px
+								border 1px solid #2fb3ff
+								border-radius 20px
+								float right
+								text-align center
+								line-height 40px
+								margin-top 25px
+								margin-right 25px
+								font-size 16px
+								color #2fb3ff
+					.icon
+						background-image url("../../image/icon-1.png")
+					.turn-left
+						display none
+						width 20px
+						height 75px
+						position absolute
+						top 15px
+						left 0
+						margin-top -9px
+						background-position -200px 30px
+					.turn-right
+						width 20px
+						height 75px
+						position absolute
+						top 15px
+						right 0
+						margin-top -9px
+						background-position -200px -17px			
+			.vip-box
+				float left
+				width 1080px
+				padding-bottom 30px
+				border-bottom 1px solid #e3e7e8
+				.vip-title
+					padding-top 30px
+					font-size 20px
+					color #2fb3ff
+					font-weight 700
+					cursor pointer
+					.more
+						float right
+						color #2eb3ff
+						padding-top 8px
+						font-size 12px
+						font-weight 400
+				.vip-list
+					position relative
+					margin-top 20px
+					height 300px
+					width 1080px
+					overflow hidden
+					.vip-ul
+						position absolute
+						width 2640px
+						height 300px
+						display block
+						overflow hidden
+						li
+							position relative
+							width 200px
+							height 300px
+							float left
+							margin-right 20px
+							overflow hidden
+							&:hover 
+								.shadow
+									display block
+									background black
+									opacity .8
+									height 110px
+								.vip-desc
+									.btn
+										display block
+									.hidden
+										display block
+							&:hover img
+								transform-origin 50% 50%
+								transform scale(1.1,1.1)	
+							a
+								img
+									display block
+									width 200px
+									height 300px
+									transition 0.5s ease-in
+								.shadow
+									position absolute
+									bottom 0
+									left 0
+									width 100%
+									height 110px
+									z-index 0
+									background url("../../image/shadow.png") 0 bottom repeat-x
+									transition .5s
+								.icon
+									background url("../../image/icon-1.png")
+								.vip-free
+									position absolute
+									top 0
+									right 10px
+									display block
+									width 65px
+									height 22px
+									background-position -300px -59px
+							.vip-desc
+								position absolute
+								bottom 10px
+								left 10px
+								a
+									p
+										font-size 13px
+										line-height 15px
+										color white
+										&:hover
+											color #2fb3ff
+									.hidden
+										display none
+										span
+											color #bbb
+											font-size 12px
+											line-height 18px
+								.btn
+									display none
+									margin-top 20px
+									.play
+										display inline-block
+										height 28px
+										line-height 28px
+										padding 0 13px
+										border-radius 2px
+										color white
+										background #2fb3ff			
+					.icon
+						background url("../../image/icon-1.png")
+					.vip-right
+						position absolute
+						right 0
+						top 50%
+						margin-top -35px
+						width 32px
+						height 70px
+						background-position -200px -181px
+					.vip-left
+						display none
+						position absolute
+						left 0
+						top 50%
+						margin-top -35px
+						width 32px
+						height 70px
+						background-position -234px -181px
+			.hot-box
+				float left
+				width 1080px
+				.hot-title
+					padding-top 30px
+					font-size 20px
+					color #2fb3ff
+					font-weight 700
+					cursor pointer
+				.hot-list
+					position relative
+					width 1080px
+					height 380px
+					margin-top 20px
+					overflow hidden
+					.hot-ul
+						width 2200px
+						height 380px
+						overflow hidden
+						.hot-li
+							position relative
+							width 200px
+							height 380px
+							float left
+							margin-right 20px
+							overflow hidden
+							.info-list
+								width 200px
+								height 70px
+								padding 5px 5px 5px 0
+								li
+									float left
+									width 200px
+									height 18px
+									color #999
+									font-size 13px
+									line-height 18px
+									overflow hidden
+									white-space nowrap
+									text-overflow ellipsis
+								.title
+									color #333
+									margin-bottom 2px
+									height 18px
+									line-height 18px
+									a:hover
+										color #ff3c00
+								.actor
+									a:hover
+										color #ff3c00
+							.hot-img
+								display block
+								height 300px
+								overflow hidden
+								&:hover
+									.hover
+										display block
+									img
+										transform-origin 50% 50%
+										transform scale(1.1,1.1)
+									.hot-icon
+									.num
+									.total
+										display none
+								img
+									width 200px
+									height 300px
+									transition .3s ease-in
+									overflow hidden
+								.bg
+									position absolute
+									bottom 80px
+									left 0
+									width 100%
+									height 100%
+									opacity 1
+									background url("../../image/hot-bg.png") 0 bottom repeat-x
+								.hot-icon
+									position absolute
+									top 0
+									left 0
+									border-top 50px solid red
+									border-right 50px solid rgba(0,0,0,0)
+								.num
+									position absolute
+									top 0
+									left 0
+									font-size 20px
+									font-weight 700
+									color white
+									padding-left 6px
+									padding-top 5px
+								.hover
+									display none
+									position absolute
+									top 0
+									left 0
+									width 200px
+									height 300px
+									background rgba(0,0,0,.3)
+									transition 1s ease-in
+									img
+										display block
+										width 44px
+										height 42px
+										margin 60% auto
+							.total
+								position absolute
+								right 6px
+								bottom 86px
+								color white
+								font-size 13px
+								padding 4px 8px
+								background-color rgba(0,0,0,.3)
+.foots
+	width 100%
+	background #f6f6f6
+	.footer
+		width 1300px
+		margin 0 auto
+		text-align left
+		color #555
+		overflow hidden
+		font-size 12px
+		line-height 20px
+		padding-bottom 80px
+		.foot-line
+			border-top 1px solid #e3e7e8
+			height 0
+		.foot-1,.foot-2
+			width 440px
+		.foot-3,foot-4
+			width 220px
+		.foot
+			float left
+			dt
+				padding-top 8px
+				padding-bottom 8px
+				a
+					padding 0 8px  0 0
+					text-align left
+					color #909090
+					&:hover
+						text-decoration underline
+						color #ff3c00
+			dd
+				padding-bottom 8px
+				
+				a
+					text-align left
+					padding 0 4px 2px 0
+					&:hover
+						text-decoration underline
+						color #ff3c00		
+// @keyframes left
+// 	0%
+// 		transform rotate(180deg)
+// 	100%
+// 		transform rotate(360deg)
+.fixed
+	display none
+	position fixed
+	right 0px
+	bottom 50px
+	img
+		cursor pointer
